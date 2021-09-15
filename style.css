@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    word-wrap: break-word;
+}
+h2,p{
+    
+     color: #DDECE2;
+    padding:0.25rem;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    width:70vh;
+    margin-top: 0;
+    padding: top 0;
+    font-size: 1.25rem;
+    margin: auto;
+    background-color: #226838;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+button{
+    font-size:1.15rem;
+   display: block;
+    margin: 0.95rem;
+    border: 0.1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    padding:0.5rem;
+    font-weight: bold;
+    width:92%;  
+    color:#277728;
+}
+button:hover{
+    font-size: 1.2rem;
+}
+input{
+    padding: 0.75rem;
+    display: block;
+    border-radius: 0.25rem;
+    font-size:1.15rem;
+    font-weight:540;
+    text-align: center;
+    color: #22401B;
+    border: none;
+    margin: 0.5rem;
+}
+#error-message{
+    padding: 0.25rem;
+    margin: 0.15rem;
+}
+#output {
+    padding: 1rem;
+    color: #CBEAD6;
+}
+label{
+    color: #EDF1EE;
+}
+.no-of-note{
+    padding: 1rem;
+    margin:1rem;
+}
+caption {
+color: #E5F1E9;
+font-size: 1.5rem;
+}
+table{
+    color: #CBEAD6;
+    padding: 1rem;
+    margin: 1rem;
+}
+#cash{
+  
+    margin: 0.5rem;
+}
