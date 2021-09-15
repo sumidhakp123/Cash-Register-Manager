@@ -10,10 +10,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 
-    <link rel="shortcut icon" href="cash-register-manager.jpg" type="image/x-icon">\
+    <link rel="shortcut icon" href="cash-register-manager.jpg" type="image/x-icon">
     <title>Cash Register Manager</title>
 </head>
 <body>
+    <main>
+    <div class="container">
+        <h2 class="heading">Cash Register Manager</h1>
+        <p class="description">
+            Enter the bill amount and cash given by the customer and know minimum number of notes to return.
+        </p>
+        <label class="bill-amt" for="bill-amount">Bill Amount:
+        <input type="number" id="bill-amount"/>
+       
+    </label>
+
+        <label   id='cash'for="cash-given">Cash Given:
+            <input type="number" id="cash-given"/>
+            <button id="check-button" type="button">Check</button>
+          </label>
+        
+        <p id="error-message"></p>
+<div class="change-return" >
+        <table>
+            <caption>
+                Return Change:
+            </caption>
+            <div id="output">
+            <tr>
+                <th>No. of Notes</th>
+                <td class="no-of-note"></td>
+                <td class="no-of-note"></td>
+                <td class="no-of-note"></td>
+                <td class="no-of-note"></td>
+                <td class="no-of-note"></td>
+                <td class="no-of-note"></td>
+                <td class="no-of-note"></td>
+                <td class="no-of-note"></td>
+                <td class="no-of-note"></td>
+               
+            </tr>
+            <tr>
+                <th>Notes</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>50</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+</div>
+</main>
     
+    <script src="index.js"></script>
 </body>
+
 </html>
